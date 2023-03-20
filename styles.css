@@ -1,0 +1,20 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  input, button {
+    font-size: 16px;
+  }
+  
+  #timer {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
