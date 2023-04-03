@@ -12,7 +12,8 @@ const teams = [
     { id: 9, name: 'Sharks' },
     { id: 10, name: 'Wolves' }
   ];
-  
+
+
   let currentTeamIndex = 0;
   let timeLeft = 20;
   let highestBid = 0;
@@ -81,7 +82,8 @@ const teams = [
   updateCurrentTeam();
   updateTimer();
   updateHighestBid();
-  updateBidHistory();
+  updateBidHistory(); 
+
 
   const timerInterval = setInterval(() => {
     timeLeft--;
